@@ -1,3 +1,5 @@
+ drop procedure if exists [dbo].[NewVenue]
+ GO
   -- Creates a new Venue
   CREATE PROCEDURE [dbo].[NewVenue]
       @VenueId  INT,
