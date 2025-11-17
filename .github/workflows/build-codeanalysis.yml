@@ -1,5 +1,5 @@
 name: Build SQL project with code analysis
-on:
+  on:
       push:
         branches: [ "main" ]
         paths:
@@ -8,7 +8,7 @@ on:
         branches: [ "main" ]
         paths:
           - 'Wingtips/**'
-jobs:
+  jobs:
       build:
         runs-on: ubuntu-22.04
     
