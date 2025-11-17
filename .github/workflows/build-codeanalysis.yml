@@ -10,7 +10,7 @@ on:
         paths:
           - 'Wingtips/**'
     
-    jobs:
+jobs:
       build:
         runs-on: ubuntu-22.04
     
